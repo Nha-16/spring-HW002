@@ -44,9 +44,12 @@
 </nav>
 <div class="container my-2">
     <a class="text-decoration-none" href="/Article"><button type="button" class="btn btn-primary">Create New Article</button></a>
-    <a>English</a>
-    <a>Khmer</a>
-    <a>Korea</a>
+    <select class="form-select w-25 mt-2" aria-label="Default select example">
+        <option selected>Select Language</option>
+        <option value="1"><a>English</a></option>
+        <option value="2"><a>Khmer</a></option>
+        <option value="3"><a>Korea</a></option>
+    </select>
     <table class="table">
         <thead>
         <tr>
@@ -59,13 +62,13 @@
         </thead>
         <tbody>
         <tr>
-            <td class="w-5">Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td class="w-5">1</td>
+            <td>Hollywood</td>
+            <td>Welcome to Movie</td>
             <td></td>
             <td class="w-25">
-                <a class="text-decoration-none" href="add-article"><button type="button" class="btn btn-info">View</button></a>
-                <a class="text-decoration-none" href="add-article"><button type="button" class="btn btn-warning">Edit</button></a>
+                <a class="text-decoration-none" href="/view"><button type="button" class="btn btn-info">View</button></a>
+                <a class="text-decoration-none" href="/edit"><button type="button" class="btn btn-warning">Edit</button></a>
                 <a class="text-decoration-none" href="add-article"><button type="button" class="btn btn-danger">Delete</button></a>
             </td>
         </tr>
